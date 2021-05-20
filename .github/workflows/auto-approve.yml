@@ -2,7 +2,7 @@ name: Auto approve
 on:
   pull_request_target:
     branches:
-      - "releases/**"
+      - releases/**
 jobs:
   build:
     runs-on: ubuntu-latest
