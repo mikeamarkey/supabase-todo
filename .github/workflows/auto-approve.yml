@@ -5,4 +5,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{github}}
+      - run: echo ${{github.head_ref}}
